@@ -1,0 +1,55 @@
+@media screen and (max-width: 1000px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .campground {
+        width: 100vw;
+        margin-bottom: 20px;
+    }
+
+    .map-review {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .map {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #map {
+        width: 100%;
+    }
+
+    .alert {
+        width: 80%;
+        margin-left: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width:400px) {
+    .row {
+        margin-top: -14px;
+    }
+}

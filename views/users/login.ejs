@@ -1,0 +1,39 @@
+<% layout('layouts/boilerplate') %>
+    
+    <div class="container d-flex justify-content-center align-items-center mt-5">
+        <div class="row">
+            <div class="col-md-12 col-xl-12">
+                <div class="card shadow">
+                    <img crossorigin="anonymous" src="https://res.cloudinary.com/dkywndf0x/image/upload/v1729577986/mixkit-colorful-lit-tents-with-time-lapse-of-night-sky-and-15814-hd-ready_vxc95n.gif" alt="gif" class="card-img-top" >
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Login</h5>
+                        <form action="/login" method="post" class="validated-form" novalidate>
+                            <div class="mb-3">
+                                <label for="username" class="form-label col-12">Username</label>
+                                <input class="form-control" type="text" id="username" name="username" required autofocus>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Enter A Username!
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label for="password" class="form-label col-12">Password</label>
+                                <input class="form-control" type="password" id="password" name="password" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Enter A Password!
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <button class="btn btn-success btn-block col-12">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

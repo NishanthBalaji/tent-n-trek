@@ -1,0 +1,15 @@
+@media screen and (min-width: 768px) {
+    .thumbnail-img {
+        width: 355px;
+        /* Fixed width for all thumbnails */
+        height: 300px;
+        /* Fixed height for all thumbnails */
+        object-fit: cover;
+        /* Ensures the image covers the area while cropping as necessary */
+        border-radius: 5px;
+        /* Optional: Adds rounded corners */
+        display: block;
+        /* Ensures the image behaves like a block element */
+        /* Optional: Center the image if needed */
+    }
+}

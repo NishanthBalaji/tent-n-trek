@@ -1,0 +1,184 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Prevent any scrolling */
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dkywndf0x/image/upload/v1729232952/GIFMaker_me_iarea5.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #343a40;
+}
+
+.container-fluid {
+    max-width: 80vw;
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Ensure full width */
+}
+
+main {
+    height: calc(100vh - 100px);
+    /* Adjust this based on actual header/footer height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+    /* Prevent scrolling within main */
+}
+
+.nav-link {
+    padding: 4px 4px;
+    margin-left: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    border-bottom: 0.25rem solid transparent;
+
+}
+
+.nav-link:hover {
+    border-color: #FFEB00;
+    color: #6EC207;
+}
+
+.active {
+    color: #FFEB00;
+    border-color: #FFEB00;
+}
+
+.btn-secondary {
+    color: #FFEB00;
+    background-color: #FFEB00;
+
+}
+
+span {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.heading {
+    color: #FFEB00;
+}
+
+.n {
+    color: #6EC207;
+}
+
+.custom-btn {
+    color: black;
+    /* Text color */
+    background-color: #FFEB00;
+    /* Background color */
+    border-color: #FFEB00;
+    /* Border color */
+}
+
+.custom-btn:hover {
+    color: #FFEB00;
+    /* Hover text color */
+    background-color: #6EC207;
+    ;
+    /* Hover background color */
+    border-color: #6EC207;
+    /* Hover border color */
+}
+
+.home-text {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    main {
+        margin-top: -100px;
+    }
+
+    .welcome {
+        font-size: 7vw;
+    }
+
+    .description {
+        font-size: 5vw;
+        font-weight: 500;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .container-fluid {
+        min-width: 100vw;
+        padding: 5px;
+    }
+
+    main {
+        margin-top: -60px;
+    }
+
+    .control {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center;
+        width: 100vw;
+        padding: 1vw;
+    }
+
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    .nav {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    footer {
+        margin-bottom: 200px;
+    }
+
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dkywndf0x/image/upload/v1729577992/mixkit-matterhorn-mountain-landscape-4281-full-hd_ebhd3l.gif');
+    }
+
+    .n {
+        color: #ff0202;
+    }
+
+
+
+    .home-text {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 4vw;
+        font-weight: 400;
+    }
+}
